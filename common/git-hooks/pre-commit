@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# Called by "git commit" with no arguments.  The hook should
+# exit with non-zero status after issuing an appropriate message if
+# it wants to stop the commit.
+
+__DIR__=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
+
+__REPOROOT__="${__DIR__}/../.."
+
+node "${__REPOROOT__}/common/scripts/install-run-rush.js" myscope:scm-pre-commit || exit $?
