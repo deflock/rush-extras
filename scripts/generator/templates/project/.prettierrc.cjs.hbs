@@ -1,3 +1,3 @@
 module.exports = {
-  ...require('@myscope/prettier-config'),
+  ...require('@rush-extras/prettier-config'),
 };

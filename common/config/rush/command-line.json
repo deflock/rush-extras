@@ -3,7 +3,31 @@
 
   "commands": [
     {
-      "name": "myscope:lint:check-all",
+      "name": "monorepo:dev",
+      "commandKind": "bulk",
+      "summary": "Start development processes",
+      "safeForSimultaneousRushProcesses": false,
+      "enableParallelism": true,
+      "ignoreDependencyOrder": false,
+      "ignoreMissingScript": false,
+      "allowWarningsInSuccessfulBuild": false,
+      "incremental": false,
+      "watchForChanges": false
+    },
+    {
+      "name": "monorepo:build",
+      "commandKind": "bulk",
+      "summary": "Build",
+      "safeForSimultaneousRushProcesses": false,
+      "enableParallelism": false,
+      "ignoreDependencyOrder": false,
+      "ignoreMissingScript": false,
+      "allowWarningsInSuccessfulBuild": false,
+      "incremental": true,
+      "watchForChanges": false
+    },
+    {
+      "name": "monorepo:lint:check-all",
       "commandKind": "bulk",
       "summary": "Lint everything",
       "safeForSimultaneousRushProcesses": false,
@@ -15,7 +39,7 @@
       "watchForChanges": false
     },
     {
-      "name": "myscope:lint:fix-all",
+      "name": "monorepo:lint:fix-all",
       "commandKind": "bulk",
       "summary": "Lint and fix everything",
       "safeForSimultaneousRushProcesses": false,
@@ -27,7 +51,7 @@
       "watchForChanges": false
     },
     {
-      "name": "myscope:scm-pre-commit",
+      "name": "monorepo:scm-pre-commit",
       "commandKind": "bulk",
       "summary": "On pre-commit hook",
       "safeForSimultaneousRushProcesses": false,

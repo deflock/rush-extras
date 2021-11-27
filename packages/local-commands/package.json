@@ -1,18 +1,20 @@
 {
-  "name": "@myscope/monorepo",
+  "name": "@rush-extras/local-commands",
   "version": "1.0.0",
   "license": "MIT",
   "bin": {
-    "myscope-rush": "./rush",
-    "myscope-pnpm": "./pnpm"
+    "rush-local": "./rush",
+    "pnpm-local": "./pnpm"
   },
   "scripts": {
     "build": ""
   },
   "engines": {
-    "node": ">=12",
+    "node": ">=14.15",
     "pnpm": ">=6",
     "npm": ">=999",
     "yarn": ">=999"
-  }
+  },
+  "dependencies": {},
+  "devDependencies": {}
 }

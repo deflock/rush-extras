@@ -1,12 +1,26 @@
 {
-  "name": "@myscope/generator",
+  "name": "@rush-extras/generator",
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": ""
+    "monorepo:build": "pnpm-local run build",
+    "monorepo:dev": "pnpm-local run dev",
+    "monorepo:lint:check-all": "pnpm-local run eslint:check-all && pnpm-local run prettier:check-all",
+    "monorepo:lint:fix-all": "pnpm-local run eslint:fix-all && pnpm-local run prettier:fix-all",
+    "monorepo:scm-pre-commit": "lint-staged",
+    "build": "",
+    "dev": "",
+    "prettier:check": "prettier --check",
+    "prettier:check-all": "prettier --check --ignore-unknown .",
+    "prettier:fix": "prettier --write",
+    "prettier:fix-all": "prettier --write --ignore-unknown .",
+    "eslint:check": "eslint",
+    "eslint:check-all": "eslint \"**/*.{js,jsx,ts,tsx}\"",
+    "eslint:fix": "eslint --fix",
+    "eslint:fix-all": "eslint --fix \"**/*.{js,jsx,ts,tsx}\""
   },
   "engines": {
-    "node": ">=12",
+    "node": ">=14.15",
     "pnpm": ">=6",
     "npm": ">=999",
     "yarn": ">=999"
@@ -18,12 +32,13 @@
     "plop": "^2.7.6"
   },
   "devDependencies": {
-    "@myscope/eslint-config": "workspace:*",
-    "@myscope/monorepo": "workspace:*",
-    "@myscope/prettier-config": "workspace:*",
-    "@myscope/typescript-config": "workspace:*",
-    "@types/node": "^12.20.36",
+    "@rush-extras/eslint-config": "workspace:*",
+    "@rush-extras/local-commands": "workspace:*",
+    "@rush-extras/prettier-config": "workspace:*",
+    "@rush-extras/typescript-config": "workspace:*",
+    "@types/node": "^14.17.34",
     "eslint": "^7.32.0",
+    "lint-staged": "^12.1.2",
     "prettier": "^2.4.0"
   }
 }

@@ -1,0 +1,86 @@
+// DO NOT ADD COMMENTS IN THIS FILE.  They will be lost when the Rush tool resaves it.
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/approved-packages.schema.json",
+  "packages": [
+    {
+      "name": "@microsoft/rush-lib",
+      "allowedCategories": [ "scripts" ]
+    },
+    {
+      "name": "@rush-extras/eslint-config",
+      "allowedCategories": [ "scripts" ]
+    },
+    {
+      "name": "@rush-extras/local-commands",
+      "allowedCategories": [ "scripts" ]
+    },
+    {
+      "name": "@rush-extras/prettier-config",
+      "allowedCategories": [ "scripts" ]
+    },
+    {
+      "name": "@rush-extras/typescript-config",
+      "allowedCategories": [ "scripts" ]
+    },
+    {
+      "name": "@rushstack/eslint-patch",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "@typescript-eslint/eslint-plugin",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "@typescript-eslint/experimental-utils",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "@typescript-eslint/parser",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "@typescript-eslint/typescript-estree",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "eslint",
+      "allowedCategories": [ "scripts", "tools" ]
+    },
+    {
+      "name": "eslint-config-prettier",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "eslint-plugin-import",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "eslint-plugin-promise",
+      "allowedCategories": [ "tools" ]
+    },
+    {
+      "name": "execa",
+      "allowedCategories": [ "scripts" ]
+    },
+    {
+      "name": "jju",
+      "allowedCategories": [ "scripts" ]
+    },
+    {
+      "name": "lint-staged",
+      "allowedCategories": [ "scripts" ]
+    },
+    {
+      "name": "plop",
+      "allowedCategories": [ "scripts" ]
+    },
+    {
+      "name": "prettier",
+      "allowedCategories": [ "scripts", "tools" ]
+    },
+    {
+      "name": "typescript",
+      "allowedCategories": [ "tools" ]
+    }
+  ]
+}

@@ -32,25 +32,6 @@
     "noEmitHelpers": false,
     "noEmitOnError": true,
     "forceConsistentCasingInFileNames": true,
-    "skipLibCheck": true,
-    "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "isolatedModules": true,
-    "preserveConstEnums": true,
-    "preserveSymlinks": false,
-    "explainFiles": false,
-    "extendedDiagnostics": false,
-    "listEmittedFiles": true,
-    "traceResolution": false,
-    "noErrorTruncation": true,
-    "declaration": true,
-    "declarationMap": false,
-    "removeComments": true,
-    "sourceMap": true,
-    "allowJs": true,
-    "checkJs": false,
-    "lib": ["es2019", "es2020.promise", "es2020.bigint", "es2020.string"],
-    "module": "node12",
-    "target": "es2019"
+    "skipLibCheck": true
   }
 }

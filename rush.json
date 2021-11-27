@@ -10,50 +10,49 @@
     "useWorkspaces": true
   },
 
-  "nodeSupportedVersionRange": ">=12.13.0 <13.0.0 || >=14.15.0 <15.0.0 || >=16.13.0 <17.0.0",
+  "nodeSupportedVersionRange": ">=14.15.0 <15.0.0 || >=16.13.0",
   "ensureConsistentVersions": true,
 
   "projectFolderMinDepth": 1,
   "projectFolderMaxDepth": 3,
 
   "approvedPackagesPolicy": {
-    "reviewCategories": ["apps", "libs", "scripts", "tools"],
+    "reviewCategories": ["packages", "scripts", "tools"],
     "ignoredNpmScopes": ["@types"]
+  },
+
+  "repository": {
+    "url": "https://github.com/deflock/rush-extras",
+    "defaultBranch": "main"
   },
 
   "projects": [
     {
-      "packageName": "@myscope/generator",
+      "packageName": "@rush-extras/local-commands",
+      "projectFolder": "packages/local-commands",
+      "reviewCategory": "packages",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@rush-extras/generator",
       "projectFolder": "scripts/generator",
       "reviewCategory": "scripts",
       "shouldPublish": false
     },
     {
-      "packageName": "@myscope/monorepo",
-      "projectFolder": "scripts/monorepo",
-      "reviewCategory": "scripts",
-      "shouldPublish": false
-    },
-    {
-      "packageName": "@myscope/scripts-shared",
-      "projectFolder": "scripts/scripts-shared",
-      "reviewCategory": "scripts",
-      "shouldPublish": false
-    },
-    {
-      "packageName": "@myscope/eslint-config",
+      "packageName": "@rush-extras/eslint-config",
       "projectFolder": "tools/eslint/config",
       "reviewCategory": "tools",
       "shouldPublish": false
     },
     {
-      "packageName": "@myscope/prettier-config",
+      "packageName": "@rush-extras/prettier-config",
       "projectFolder": "tools/prettier/config",
       "reviewCategory": "tools",
       "shouldPublish": false
     },
     {
-      "packageName": "@myscope/typescript-config",
+      "packageName": "@rush-extras/typescript-config",
       "projectFolder": "tools/typescript/config",
       "reviewCategory": "tools",
       "shouldPublish": false

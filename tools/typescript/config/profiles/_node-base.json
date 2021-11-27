@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./_base.json",
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "preserveConstEnums": true,
+    "preserveSymlinks": false,
+    "explainFiles": false,
+    "extendedDiagnostics": false,
+    "listEmittedFiles": true,
+    "traceResolution": false,
+    "noErrorTruncation": true
+  }
+}

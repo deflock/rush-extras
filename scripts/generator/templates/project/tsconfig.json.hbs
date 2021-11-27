@@ -1,16 +1,14 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "extends": "./node_modules/@myscope/typescript-config/profiles/default.json",
+  "extends": "./node_modules/@rush-extras/typescript-config/profiles/node14.json",
   "compilerOptions": {
     "outDir": "./dist",
-    "lib": ["es2019", "es2020.promise", "es2020.bigint", "es2020.string"],
-    "module": "commonjs",
-    "target": "es2019",
-    "moduleResolution": "node",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "declaration": true,
+    "declarationMap": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "allowJs": true,
+    "checkJs": false
   },
   "watchOptions": {
     "excludeDirectories": ["**/node_modules", "dist/"]
