@@ -1,0 +1,22 @@
+{
+  "name": "@rush-extras/rush-local-command",
+  "entries": [
+    {
+      "version": "1.1.0",
+      "tag": "@rush-extras/rush-local-command_v1.1.0",
+      "date": "Sat, 04 Dec 2021 00:54:13 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Add runner for locally-installed Rush's rush command"
+          }
+        ],
+        "dependency": [
+          {
+            "comment": "Updating dependency \"@rush-extras/shell-shared\" to `1.1.0`"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "@rush-extras/shell-shared",
+  "entries": [
+    {
+      "version": "1.1.0",
+      "tag": "@rush-extras/shell-shared_v1.1.0",
+      "date": "Sat, 04 Dec 2021 00:54:13 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Add package for shared shell routines"
+          }
+        ]
+      }
+    }
+  ]
+}

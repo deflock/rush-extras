@@ -1,6 +1,6 @@
 {
   "name": "@rush-extras/shell-shared",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Monorepo-related shell helper functions",
   "keywords": [
     "rush",
