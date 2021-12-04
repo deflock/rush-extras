@@ -21,6 +21,11 @@
     "ignoredNpmScopes": ["@types"]
   },
 
+  "gitPolicy": {
+    "versionBumpCommitMessage": "build: bump versions [skip ci]",
+    "changeLogUpdateCommitMessage": "build: add changelogs [skip ci]"
+  },
+
   "repository": {
     "url": "https://github.com/deflock/rush-extras",
     "defaultBranch": "main"
