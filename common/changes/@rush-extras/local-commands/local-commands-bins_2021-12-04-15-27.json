@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@rush-extras/local-commands",
+      "comment": "Create top-level binaries (aliases) for binaries of dependencies",
+      "type": "patch"
+    }
+  ],
+  "packageName": "@rush-extras/local-commands"
+}
