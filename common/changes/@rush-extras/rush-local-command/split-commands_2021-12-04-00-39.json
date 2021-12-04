@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@rush-extras/rush-local-command",
+      "comment": "Add runner for locally-installed Rush's rush command",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@rush-extras/rush-local-command"
+}

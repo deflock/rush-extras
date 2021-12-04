@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@rush-extras/shell-shared",
+      "comment": "Add package for shared shell routines",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@rush-extras/shell-shared"
+}

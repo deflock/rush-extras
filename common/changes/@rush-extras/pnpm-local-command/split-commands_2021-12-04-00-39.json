@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@rush-extras/pnpm-local-command",
+      "comment": "Add runner for locally-installed pnpm",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@rush-extras/pnpm-local-command"
+}
