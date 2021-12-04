@@ -1,6 +1,6 @@
 {
   "name": "@rush-extras/local-commands",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Rush, pnpm and other runners for locally-installed tools",
   "keywords": [
     "rush",

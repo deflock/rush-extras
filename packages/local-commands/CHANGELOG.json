@@ -2,6 +2,20 @@
   "name": "@rush-extras/local-commands",
   "entries": [
     {
+      "version": "1.1.1",
+      "tag": "@rush-extras/local-commands_v1.1.1",
+      "date": "Sat, 04 Dec 2021 15:30:40 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Create top-level binaries (aliases) for binaries of dependencies",
+            "author": "Alex Tsvetkov <deflocked@outlook.com>",
+            "commit": "edad2c276aebd42afee1903f441fa5ffa057b5f0"
+          }
+        ]
+      }
+    },
+    {
       "version": "1.1.0",
       "tag": "@rush-extras/local-commands_v1.1.0",
       "date": "Sat, 04 Dec 2021 00:54:13 GMT",
