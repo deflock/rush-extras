@@ -2,4 +2,7 @@
 
 __DIR__=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 
-"${__DIR__}/../packages/local-commands/rush" install || "${__DIR__}/../packages/local-commands/rush" update
+__REPOROOT__="${__DIR__}/.."
+
+node "${__REPOROOT__}/common/scripts/install-run-rush.js" install \
+    || node "${__REPOROOT__}/common/scripts/install-run-rush.js" update

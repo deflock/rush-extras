@@ -6,14 +6,43 @@ importers:
     specifiers: {}
 
   ../../packages/local-commands:
+    specifiers:
+      '@rush-extras/pnpm-local-command': workspace:*
+      '@rush-extras/rush-local-command': workspace:*
+      '@rush-extras/rushx-local-command': workspace:*
+    dependencies:
+      '@rush-extras/pnpm-local-command': link:../pnpm-local-command
+      '@rush-extras/rush-local-command': link:../rush-local-command
+      '@rush-extras/rushx-local-command': link:../rushx-local-command
+
+  ../../packages/pnpm-local-command:
+    specifiers:
+      '@rush-extras/shell-shared': workspace:*
+    dependencies:
+      '@rush-extras/shell-shared': link:../shell-shared
+
+  ../../packages/rush-local-command:
+    specifiers:
+      '@rush-extras/shell-shared': workspace:*
+    dependencies:
+      '@rush-extras/shell-shared': link:../shell-shared
+
+  ../../packages/rushx-local-command:
+    specifiers:
+      '@rush-extras/shell-shared': workspace:*
+    dependencies:
+      '@rush-extras/shell-shared': link:../shell-shared
+
+  ../../packages/shell-shared:
     specifiers: {}
 
   ../../scripts/generator:
     specifiers:
       '@microsoft/rush-lib': ^5.56.0
       '@rush-extras/eslint-config': workspace:*
-      '@rush-extras/local-commands': workspace:*
+      '@rush-extras/pnpm-local-command': workspace:*
       '@rush-extras/prettier-config': workspace:*
+      '@rush-extras/shell-shared': workspace:*
       '@rush-extras/typescript-config': workspace:*
       '@types/node': ^14.17.34
       eslint: ^7.32.0
@@ -29,8 +58,9 @@ importers:
       plop: 2.7.6
     devDependencies:
       '@rush-extras/eslint-config': link:../../tools/eslint/config
-      '@rush-extras/local-commands': link:../../packages/local-commands
+      '@rush-extras/pnpm-local-command': link:../../packages/pnpm-local-command
       '@rush-extras/prettier-config': link:../../tools/prettier/config
+      '@rush-extras/shell-shared': link:../../packages/shell-shared
       '@rush-extras/typescript-config': link:../../tools/typescript/config
       '@types/node': 14.17.34
       eslint: 7.32.0

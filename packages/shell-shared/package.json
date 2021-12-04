@@ -1,0 +1,31 @@
+{
+  "name": "@rush-extras/shell-shared",
+  "version": "1.0.0",
+  "description": "Monorepo-related shell helper functions",
+  "keywords": [
+    "rush",
+    "rushjs",
+    "monorepo"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/deflock/rush-extras/blob/main/packages/shell-shared",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deflock/rush-extras"
+  },
+  "bugs": "https://github.com/deflock/rush-extras/issues",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": ""
+  },
+  "engines": {
+    "node": ">=14.15",
+    "pnpm": ">=6",
+    "npm": ">=999",
+    "yarn": ">=999"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

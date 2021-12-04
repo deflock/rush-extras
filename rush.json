@@ -34,6 +34,30 @@
       "shouldPublish": true
     },
     {
+      "packageName": "@rush-extras/pnpm-local-command",
+      "projectFolder": "packages/pnpm-local-command",
+      "reviewCategory": "packages",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@rush-extras/rush-local-command",
+      "projectFolder": "packages/rush-local-command",
+      "reviewCategory": "packages",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@rush-extras/rushx-local-command",
+      "projectFolder": "packages/rushx-local-command",
+      "reviewCategory": "packages",
+      "shouldPublish": true
+    },
+    {
+      "packageName": "@rush-extras/shell-shared",
+      "projectFolder": "packages/shell-shared",
+      "reviewCategory": "packages",
+      "shouldPublish": true
+    },
+    {
       "packageName": "@rush-extras/generator",
       "projectFolder": "scripts/generator",
       "reviewCategory": "scripts",

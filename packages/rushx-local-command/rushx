@@ -6,4 +6,4 @@ __DIR__=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 
 __REPOROOT__=`get_repo_root "${__DIR__}"`
 
-"${__DIR__}/node_modules/.bin/plop" --cwd "${__DIR__}" --dest "${__REPOROOT__}" $@
+node "${__REPOROOT__}/common/scripts/install-run-rushx.js" $@

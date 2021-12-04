@@ -15,8 +15,24 @@
       "allowedCategories": [ "scripts" ]
     },
     {
+      "name": "@rush-extras/pnpm-local-command",
+      "allowedCategories": [ "packages", "scripts" ]
+    },
+    {
       "name": "@rush-extras/prettier-config",
       "allowedCategories": [ "scripts" ]
+    },
+    {
+      "name": "@rush-extras/rush-local-command",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "@rush-extras/rushx-local-command",
+      "allowedCategories": [ "packages" ]
+    },
+    {
+      "name": "@rush-extras/shell-shared",
+      "allowedCategories": [ "packages", "scripts" ]
     },
     {
       "name": "@rush-extras/typescript-config",

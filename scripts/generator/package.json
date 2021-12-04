@@ -33,8 +33,9 @@
   },
   "devDependencies": {
     "@rush-extras/eslint-config": "workspace:*",
-    "@rush-extras/local-commands": "workspace:*",
+    "@rush-extras/pnpm-local-command": "workspace:*",
     "@rush-extras/prettier-config": "workspace:*",
+    "@rush-extras/shell-shared": "workspace:*",
     "@rush-extras/typescript-config": "workspace:*",
     "@types/node": "^14.17.34",
     "eslint": "^7.32.0",

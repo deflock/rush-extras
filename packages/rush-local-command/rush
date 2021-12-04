@@ -2,7 +2,7 @@
 
 __DIR__=$(CDPATH= cd -- "$(dirname -- "$0")" && pwd)
 
-. "${__DIR__}/find-repo-root.sh"
+. "${__DIR__}/node_modules/@rush-extras/shell-shared/functions/find-repo-root.sh"
 
 __REPOROOT__=`get_repo_root "${__DIR__}"`
 

@@ -1,19 +1,16 @@
 {
-  "name": "@rush-extras/local-commands",
+  "name": "@rush-extras/rushx-local-command",
   "version": "1.0.0",
-  "description": "Rush, pnpm and other runners for locally-installed tools",
+  "description": "Runner for locally-installed Rush's rushx command",
   "keywords": [
     "rush",
     "rushjs",
-    "rush-local",
     "rushx",
     "rushx-local",
-    "pnpm",
-    "pnpm-local",
-    "local-command"
+    "monorepo"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/deflock/rush-extras/blob/main/packages/local-commands",
+  "homepage": "https://github.com/deflock/rush-extras/blob/main/packages/rushx-local-command",
   "repository": {
     "type": "git",
     "url": "https://github.com/deflock/rush-extras"
@@ -21,6 +18,9 @@
   "bugs": "https://github.com/deflock/rush-extras/issues",
   "publishConfig": {
     "access": "public"
+  },
+  "bin": {
+    "rushx-local": "./rushx"
   },
   "scripts": {
     "build": ""
@@ -32,9 +32,7 @@
     "yarn": ">=999"
   },
   "dependencies": {
-    "@rush-extras/pnpm-local-command": "workspace:*",
-    "@rush-extras/rush-local-command": "workspace:*",
-    "@rush-extras/rushx-local-command": "workspace:*"
+    "@rush-extras/shell-shared": "workspace:*"
   },
   "devDependencies": {}
 }
