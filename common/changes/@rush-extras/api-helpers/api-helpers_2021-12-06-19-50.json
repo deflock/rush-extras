@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "@rush-extras/api-helpers",
+      "comment": "Add new package api-helpers",
+      "type": "minor"
+    }
+  ],
+  "packageName": "@rush-extras/api-helpers"
+}
