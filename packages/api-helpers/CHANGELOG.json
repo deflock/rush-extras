@@ -1,0 +1,19 @@
+{
+  "name": "@rush-extras/api-helpers",
+  "entries": [
+    {
+      "version": "1.1.0",
+      "tag": "@rush-extras/api-helpers_v1.1.0",
+      "date": "Mon, 06 Dec 2021 19:56:29 GMT",
+      "comments": {
+        "minor": [
+          {
+            "comment": "Add new package api-helpers",
+            "author": "Alex Tsvetkov <deflocked@outlook.com>",
+            "commit": "b415aad7ff9412ed67e3bc71b78a16b695ec4e14"
+          }
+        ]
+      }
+    }
+  ]
+}
