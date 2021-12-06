@@ -1,0 +1,65 @@
+{
+  "name": "@rush-extras/api-helpers",
+  "version": "1.0.0",
+  "description": "Helper functions for Rush API to make some things easier",
+  "keywords": [
+    "rush",
+    "rushjs",
+    "monorepo",
+    "rush-helpers",
+    "rush-api",
+    "rush-lib"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/deflock/rush-extras/blob/main/packages/api-helpers",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deflock/rush-extras"
+  },
+  "bugs": "https://github.com/deflock/rush-extras/issues",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "./dist/api-helpers.js",
+  "typings": "./dist/api-helpers.d.ts",
+  "scripts": {
+    "monorepo:build": "pnpm-local run build",
+    "monorepo:dev": "pnpm-local run dev",
+    "monorepo:lint:check-all": "pnpm-local run eslint:check-all && pnpm-local run prettier:check-all",
+    "monorepo:lint:fix-all": "pnpm-local run eslint:fix-all && pnpm-local run prettier:fix-all",
+    "monorepo:scm-pre-commit": "lint-staged",
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "prettier:check": "prettier --check",
+    "prettier:check-all": "prettier --check --ignore-unknown .",
+    "prettier:fix": "prettier --write",
+    "prettier:fix-all": "prettier --write --ignore-unknown .",
+    "eslint:check": "eslint",
+    "eslint:check-all": "eslint \"**/*.{js,jsx,ts,tsx}\"",
+    "eslint:fix": "eslint --fix",
+    "eslint:fix-all": "eslint --fix \"**/*.{js,jsx,ts,tsx}\""
+  },
+  "engines": {
+    "node": ">=14.15",
+    "pnpm": ">=6",
+    "npm": ">=999",
+    "yarn": ">=999"
+  },
+  "dependencies": {
+    "@microsoft/rush-lib": "^5.56.0",
+    "execa": "^5.1.1",
+    "jju": "^1.4.0"
+  },
+  "devDependencies": {
+    "@rush-extras/eslint-config": "workspace:*",
+    "@rush-extras/local-commands": "workspace:*",
+    "@rush-extras/prettier-config": "workspace:*",
+    "@rush-extras/typescript-config": "workspace:*",
+    "@types/jju": "^1.4.2",
+    "@types/node": "^14.17.34",
+    "eslint": "^7.32.0",
+    "lint-staged": "^12.1.2",
+    "prettier": "^2.4.0",
+    "typescript": "^4.5.0"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "./node_modules/@rush-extras/typescript-config/profiles/node14.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationMap": true,
+    "removeComments": false,
+    "sourceMap": true,
+    "allowJs": true,
+    "checkJs": false
+  },
+  "include": ["src"],
+  "watchOptions": {
+    "excludeDirectories": ["**/node_modules", "dist/"]
+  }
+}

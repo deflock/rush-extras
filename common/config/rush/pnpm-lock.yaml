@@ -5,6 +5,37 @@ importers:
   .:
     specifiers: {}
 
+  ../../packages/api-helpers:
+    specifiers:
+      '@microsoft/rush-lib': ^5.56.0
+      '@rush-extras/eslint-config': workspace:*
+      '@rush-extras/local-commands': workspace:*
+      '@rush-extras/prettier-config': workspace:*
+      '@rush-extras/typescript-config': workspace:*
+      '@types/jju': ^1.4.2
+      '@types/node': ^14.17.34
+      eslint: ^7.32.0
+      execa: ^5.1.1
+      jju: ^1.4.0
+      lint-staged: ^12.1.2
+      prettier: ^2.4.0
+      typescript: ^4.5.0
+    dependencies:
+      '@microsoft/rush-lib': 5.56.0
+      execa: 5.1.1
+      jju: 1.4.0
+    devDependencies:
+      '@rush-extras/eslint-config': link:../../tools/eslint/config
+      '@rush-extras/local-commands': link:../local-commands
+      '@rush-extras/prettier-config': link:../../tools/prettier/config
+      '@rush-extras/typescript-config': link:../../tools/typescript/config
+      '@types/jju': 1.4.2
+      '@types/node': 14.17.34
+      eslint: 7.32.0
+      lint-staged: 12.1.2
+      prettier: 2.5.0
+      typescript: 4.5.2
+
   ../../packages/local-commands:
     specifiers:
       '@rush-extras/pnpm-local-command': workspace:*
@@ -561,6 +592,10 @@ packages:
     dependencies:
       '@types/node': 14.17.34
     dev: false
+
+  /@types/jju/1.4.2:
+    resolution: {integrity: sha512-fbvsM6TrP3QN6791tiF6wAkmlNRwf1VARZ7sXyc5kmbfTDFhECaiS5ZFvpaciud0BoKBBFWA8hE3utOLf5XB1w==}
+    dev: true
 
   /@types/json-schema/7.0.9:
     resolution: {integrity: sha512-qcUXuemtEu+E5wZSJHNxUXeCZhAfXKQ41D+duX+VYPde7xyEVZci+/oXKJL13tnRs9lR2pr4fod59GT6/X1/yQ==}

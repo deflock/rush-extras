@@ -4,15 +4,15 @@
   "packages": [
     {
       "name": "@microsoft/rush-lib",
-      "allowedCategories": [ "scripts" ]
+      "allowedCategories": [ "packages", "scripts" ]
     },
     {
       "name": "@rush-extras/eslint-config",
-      "allowedCategories": [ "scripts" ]
+      "allowedCategories": [ "packages", "scripts" ]
     },
     {
       "name": "@rush-extras/local-commands",
-      "allowedCategories": [ "scripts" ]
+      "allowedCategories": [ "packages", "scripts" ]
     },
     {
       "name": "@rush-extras/pnpm-local-command",
@@ -20,7 +20,7 @@
     },
     {
       "name": "@rush-extras/prettier-config",
-      "allowedCategories": [ "scripts" ]
+      "allowedCategories": [ "packages", "scripts" ]
     },
     {
       "name": "@rush-extras/rush-local-command",
@@ -36,7 +36,7 @@
     },
     {
       "name": "@rush-extras/typescript-config",
-      "allowedCategories": [ "scripts" ]
+      "allowedCategories": [ "packages", "scripts" ]
     },
     {
       "name": "@rushstack/eslint-patch",
@@ -60,7 +60,7 @@
     },
     {
       "name": "eslint",
-      "allowedCategories": [ "scripts", "tools" ]
+      "allowedCategories": [ "packages", "scripts", "tools" ]
     },
     {
       "name": "eslint-config-prettier",
@@ -76,15 +76,15 @@
     },
     {
       "name": "execa",
-      "allowedCategories": [ "scripts" ]
+      "allowedCategories": [ "packages", "scripts" ]
     },
     {
       "name": "jju",
-      "allowedCategories": [ "scripts" ]
+      "allowedCategories": [ "packages", "scripts" ]
     },
     {
       "name": "lint-staged",
-      "allowedCategories": [ "scripts" ]
+      "allowedCategories": [ "packages", "scripts" ]
     },
     {
       "name": "plop",
@@ -92,11 +92,11 @@
     },
     {
       "name": "prettier",
-      "allowedCategories": [ "scripts", "tools" ]
+      "allowedCategories": [ "packages", "scripts", "tools" ]
     },
     {
       "name": "typescript",
-      "allowedCategories": [ "tools" ]
+      "allowedCategories": [ "packages", "tools" ]
     }
   ]
 }

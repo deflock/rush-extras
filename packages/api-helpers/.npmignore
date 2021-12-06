@@ -1,0 +1,19 @@
+# .npmignore files follow the same pattern rules as .gitignore files:
+# - Blank lines or lines starting with # are ignored.
+# - Standard glob patterns work.
+# - You can end patterns with a forward slash / to specify a directory.
+# - You can negate a pattern by starting it with an exclamation point !
+#
+# Additionally, everything in node_modules is ignored, except for bundled dependencies. 
+# npm automatically handles this for you, so don't bother adding node_modules to .npmignore.
+#
+# The following paths and files are never ignored, so adding them to .npmignore is pointless:
+# - package.json
+# - README (and its variants)
+# - CHANGELOG (and its variants)
+# - LICENSE / LICENCE
+
+*
+!/bin/
+!/dist/
+!/lib/

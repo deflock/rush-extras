@@ -4,22 +4,26 @@ module.exports = {
     es2020: true,
     node: true,
   },
-  plugins: ["import", "promise"],
   parser: "",
-  parserOptions: {
-    ecmaVersion: 11,
-  },
-  extends: [
-    "eslint:recommended",
-    "plugin:promise/recommended",
-    "plugin:import/errors",
-    "plugin:import/warnings",
-    "prettier",
-  ],
   ignorePatterns: ["*.d.ts"],
   overrides: [
     {
-      files: ["*.ts", "*.tsx"],
+      files: ["*.js", "*.cjs", "*.mjs", "*.jsx"],
+      plugins: ["import", "promise"],
+      parser: "",
+      parserOptions: {
+        ecmaVersion: 11,
+      },
+      extends: [
+        "eslint:recommended",
+        "plugin:promise/recommended",
+        "plugin:import/errors",
+        "plugin:import/warnings",
+        "prettier",
+      ],
+    },
+    {
+      files: ["*.ts", "*.cts", "*.mts", "*.tsx"],
       plugins: ["@typescript-eslint/eslint-plugin", "promise"],
       parser: "@typescript-eslint/parser",
       parserOptions: {

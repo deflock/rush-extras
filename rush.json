@@ -33,6 +33,12 @@
 
   "projects": [
     {
+      "packageName": "@rush-extras/api-helpers",
+      "projectFolder": "packages/api-helpers",
+      "reviewCategory": "packages",
+      "shouldPublish": true
+    },
+    {
       "packageName": "@rush-extras/local-commands",
       "projectFolder": "packages/local-commands",
       "reviewCategory": "packages",
